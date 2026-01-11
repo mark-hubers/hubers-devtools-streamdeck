@@ -1,0 +1,5 @@
+NAME="streamdeck"
+DESCRIPTION="Stream Deck configuration and BetterTouchTool integration"
+VERSION="1.0.0"
+REQUIRES_DEVTOOLS=true
+PLATFORMS="macos"
