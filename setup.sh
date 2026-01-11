@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 ###############################################################################
 # Stream Deck Setup
 # Part of hubers-devtools-system plugin ecosystem
@@ -6,7 +6,7 @@
 
 set -e
 
-SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+SCRIPT_DIR="${0:a:h}"
 DEVTOOLS_DIR="$HOME/my-tools/hubers-devtools-system"
 
 # Source shared utilities if available
