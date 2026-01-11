@@ -1,0 +1,1 @@
+{"Controllers":[{"Actions":{"0,0":{"ActionID":"583045c3-0bfa-4063-96f3-ac5051fb4222","LinkedTitle":true,"Name":"Mute","Plugin":{"Name":"Microsoft Teams","UUID":"com.microsoft.teams","Version":"2.0.27"},"Settings":{},"State":0,"States":[{"Title":"Team Mute"}],"UUID":"com.microsoft.teams.button.togglemute"}},"Type":"Keypad"}],"Icon":"","Name":""}
