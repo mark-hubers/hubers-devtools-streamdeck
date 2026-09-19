@@ -6,6 +6,15 @@
 
 set -e
 
+# -- ./setup.sh [--yes]  (--yes accepted for uniformity; nothing here prompts)
+for _arg in "$@"; do
+    case "$_arg" in
+        --yes|-y) export DEVTOOLS_YES=1 ;;
+        *) echo "Unknown option: $_arg"; exit 2 ;;
+    esac
+done
+unset _arg
+
 SCRIPT_DIR="${0:a:h}"
 DEVTOOLS_DIR="$HOME/my-tools/hubers-devtools-system"
 
